@@ -19,7 +19,7 @@ const Movie = (props) => {
           console.error(error);
         });
 
-  },[]);
+  },[props.match.params.movieID]);
   
   // Uncomment this only when you have moved on to the stretch goals
   // const saveMovie = () => {
